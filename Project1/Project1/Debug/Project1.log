@@ -1,0 +1,5 @@
+﻿  MyForm.cpp
+C:\Users\User\Desktop\ФЕІ-15\АтаП осінь2021\Виконане\10.1\Project1\Project1\MyForm.h(210,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Desktop\ФЕІ-15\АтаП осінь2021\Виконане\10.1\Project1\Project1\MyForm.h(208,27): warning C4101: 'u': unreferenced local variable
+  MyForm.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  Project1.vcxproj -> C:\Users\User\Desktop\ФЕІ-15\АтаП осінь2021\Виконане\10.1\Project1\Debug\Project1.exe
