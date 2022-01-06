@@ -22,13 +22,13 @@ namespace Add
 			Close();
 		}
 
-		private double FunctionTabulation(double a, double b, int n, double x, double y)
+		private double FunctionTabulation(double a, double b, int n, double x, double y)// метод табулювання ф-ції і знаходження максимального значення
         {
 			double h, funcMax;
 			h = (b - a) / n;
 			x = a;
 			funcMax = 0;
-			for (int i = 0; i < n; i++) //табулювання ф-ції
+			for (int i = 0; i < n; i++) 
 			{
 				y = f(x);
 				if (y > funcMax)
@@ -41,7 +41,7 @@ namespace Add
 			return funcMax;
         }
 		
-		private double MonteCarlo(double a, double b, int n, double x, double y, double funcMax)
+		private double MonteCarlo(double a, double b, int n, double x, double y, double funcMax) // метод знаходження площі
         {
 			double randY;
 			int nB = 0;
